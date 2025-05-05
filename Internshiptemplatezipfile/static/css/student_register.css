@@ -1,0 +1,145 @@
+/* Import Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(45deg, #0011fb 0%, #00e8f4 100%);
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+    color: #ffffff;
+    box-sizing: border-box;
+}
+
+header {
+    text-align: center;
+    padding-top: 60px;
+    margin-bottom: 20px;
+    z-index: 1;
+    position: relative;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: calc(100vh - 120px);
+    padding-top: 20px;
+}
+
+.form-container {
+    background-color: rgba(255, 255, 255, 0.15);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    padding: 5%;
+    border-radius: 20px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+    width: 800px;
+    height: auto;
+    color: #ffffff;
+    transition: all 0.3s ease;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-row {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.form-column {
+    display: flex;
+    flex-direction: column;
+    width: 48%;
+}
+
+.form-group,
+.form-group-skills {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    gap: 10px;
+}
+
+label {
+    width: 40%;
+    font-weight: 500;
+    color: #ffffff;
+}
+
+input,
+select {
+    width: 60%;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #ffffff;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 8px;
+    font-family: 'Poppins', sans-serif;
+    transition: all 0.3s ease;
+}
+
+input:focus,
+select:focus {
+    outline: none;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-color: #ffffff;
+}
+
+hr {
+    margin: 20px 0;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+button {
+    width: 30%;
+    align-self: center;
+    padding: 12px;
+    background: linear-gradient(90deg, #920fd9 0%, #033ff4 100%);
+    color: #ffffff;
+    border: none;
+    border-radius: 10px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+button:hover {
+    background: linear-gradient(90deg, #033ff4 0%, #920fd9 100%);
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+}
+
+p {
+    font-weight: 500;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 20px;
+    color: #e0fbfc;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 32px;
+    background: linear-gradient(90deg, #ffffff, #ffffff);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-weight: 600;
+}
+
+small {
+    display: block;
+    text-align: center;
+    margin-top: 40px;
+    color: #cccccc;
+    font-size: 14px;
+}

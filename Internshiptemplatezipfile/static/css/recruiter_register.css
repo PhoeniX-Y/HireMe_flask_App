@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #0011fb, #00e8f4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    color: #ffffff;
+}
+
+.form-container {
+    background-color: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+    width: 800px;
+    max-width: 90%;
+    color: #ffffff;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 30px;
+    color: #ffffff;
+}
+
+.form-row {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.form-column {
+    display: flex;
+    flex-direction: column;
+    width: 48%;
+}
+
+.form-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+#confirm_pass_group {
+    margin-top: 40px;
+}
+
+label {
+    width: 40%;
+    font-weight: 500;
+    margin-right: 10px;
+    color: #ffffff;
+}
+
+input,
+select {
+    width: 60%;
+    padding: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.15);
+    color: #ffffff;
+}
+
+input::placeholder,
+select option {
+    color: #dddddd;
+}
+
+input:focus,
+select:focus {
+    outline: none;
+    border-color: #00e8f4;
+    background-color: rgba(255, 255, 255, 0.25);
+}
+
+hr {
+    margin: 25px 0;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+button {
+    width: 30%;
+    align-self: center;
+    padding: 12px;
+    background: linear-gradient(90deg, #033ff4, #920fd9);
+    color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background: linear-gradient(90deg, #920fd9, #033ff4);
+    transform: translateY(-2px);
+}
+
+p {
+    font-weight: 500;
+    text-align: center;
+    font-size: 20px;
+    color: #ffffff;
+    margin-top: 30px;
+}

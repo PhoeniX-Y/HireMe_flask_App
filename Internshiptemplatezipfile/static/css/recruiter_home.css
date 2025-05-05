@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: linear-gradient(to right, #021B79, #0575E6);
+    color: #ffffff;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 30px;
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(8px);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+h1 {
+    margin: 0;
+    font-size: 26px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+#logout-btn {
+    padding: 8px 16px;
+    background: linear-gradient(90deg, #003ec4, #920fd9);
+    color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+#logout-btn:hover {
+    background: linear-gradient(90deg, #920fd9, #003ec4);
+    transform: translateY(-2px);
+}
+
+main {
+    display: flex;
+    height: calc(100vh - 60px);
+}
+
+.sidebar {
+    width: 220px;
+    padding: 25px;
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(6px);
+    border-right: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.sidebar h2 {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+
+.content {
+    flex: 1;
+    padding: 30px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(6px);
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+th, td {
+    padding: 14px;
+    text-align: left;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    color: #ffffff;
+}
+
+th {
+    background-color: rgba(255, 255, 255, 0.2);
+    font-weight: 500;
+}
+
+td.description {
+    text-align: center;
+}
+
+#reports {
+    text-decoration: underline;
+    margin-top: 20px;
+    display: inline-block;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+#create-job-btn {
+    padding: 12px 24px;
+    background: linear-gradient(90deg, #033ff4, #920fd9);
+    color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 500;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    transition: background 0.3s ease, transform 0.2s ease;
+}
+
+#create-job-btn:hover {
+    background: linear-gradient(90deg, #920fd9, #033ff4);
+    transform: translateY(-2px);
+}
+
+.view-btn {
+    padding: 8px 14px;
+    background-color: #00bfff;
+    color: #ffffff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.view-btn:hover {
+    background-color: #0080ff;
+}
+
+#back-to-index {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}

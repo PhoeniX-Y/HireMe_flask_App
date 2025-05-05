@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
+
+body {  
+    font-family: 'Poppins', sans-serif;  
+    margin: 0;  
+    padding: 0;  
+    box-sizing: border-box;  
+    background: linear-gradient(135deg, #1f1c2c, #928dab);  
+    color: #ffffff;
+}  
+
+header {  
+    display: flex;  
+    align-items: center;  
+    justify-content: space-between;  
+    padding: 10px 20px;  
+    background-color: rgba(255, 255, 255, 0.1);  
+    backdrop-filter: blur(8px);  
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);  
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);  
+}  
+
+h1 {  
+    margin: 0;  
+    font-size: 24px;  
+    font-weight: bold;  
+    color: #ffffff;  
+}  
+
+.container {  
+    display: flex;  
+    height: calc(100vh - 60px);  
+}  
+
+.sidebar {  
+    width: 200px;  
+    padding: 20px;  
+    background-color: rgba(255, 255, 255, 0.08);  
+    backdrop-filter: blur(6px);  
+    border-right: 1px solid rgba(255, 255, 255, 0.2);  
+}  
+
+.sidebar h2 {  
+    margin: 0;  
+    font-size: 18px;  
+    font-weight: bold;  
+    color: #ffffff;  
+}  
+
+.job-details {  
+    flex: 1;  
+    padding: 20px;  
+}  
+
+.job-details h2 {  
+    margin-top: 0;  
+    color: #ffffff;  
+}  
+
+button {  
+    padding: 10px 20px;  
+    background: linear-gradient(90deg, #7f00ff, #e100ff);  
+    color: #ffffff;  
+    border: none;  
+    border-radius: 8px;  
+    cursor: pointer;  
+    font-size: 16px;  
+    transition: background 0.3s ease, transform 0.2s ease;  
+}  
+
+button:hover {  
+    background: linear-gradient(90deg, #e100ff, #7f00ff);  
+    transform: translateY(-2px);  
+}  

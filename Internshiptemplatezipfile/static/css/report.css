@@ -1,0 +1,121 @@
+/* Import Google Fonts for a more modern look */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+body {  
+    font-family: 'Mallanna', sans-serif;  
+    margin: 0;  
+    padding: 0;  
+    background: linear-gradient(45deg, #0011fb 0%, #00e8f4 100%);  
+    background-attachment: fixed;  
+    color: #ffffff;  
+    min-height: 100vh;
+    box-sizing: border-box;  
+}  
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 30px;
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(8px);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+h1 {
+    margin: 0;
+    font-size: 26px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+#logout-btn {  
+    padding: 10px 20px;  
+    background: linear-gradient(90deg,#003ec4, #920fd9);  
+    color: #ffffff;  
+    border: none;  
+    margin-top: 10px;
+    border-radius: 8px;  
+    cursor: pointer;  
+    font-size: 16px;  
+    transition: background 0.3s ease, transform 0.2s ease;  
+}  
+
+#logout-btn:hover {  
+    background: linear-gradient(90deg, #920fd9, #033ff4);
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+}  
+
+main {  
+    display: flex;  
+    height: calc(100vh - 60px);  
+}  
+
+  
+
+
+
+.sidebar {
+    width: 220px;
+    padding: 25px;
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(6px);
+    border-right: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.sidebar h2 {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #ffffff;
+} 
+
+.content {  
+    flex: 1;  
+    padding: 20px;  
+}  
+
+h2 {  
+    font-size: 22px;  
+    margin-bottom: 20px;  
+    color: #e0fbfc;
+}  
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(6px);
+    border-radius: 12px;
+    overflow: hidden;
+} 
+
+th, td {
+    padding: 14px;
+    text-align: left;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    color: #ffffff;
+}
+
+th {
+    background-color: rgba(255, 255, 255, 0.2);
+    font-weight: 500;
+}
+
+#back-to-index {  
+    padding: 10px 20px;  
+    background: linear-gradient(90deg,#003ec4, #920fd9);  
+    color: #ffffff;  
+    border: none;  
+    border-radius: 8px;  
+    cursor: pointer;  
+    margin-top: 10px;
+    font-size: 16px;  
+    transition: background 0.3s ease, transform 0.2s ease;  
+}  
+
+#back-to-index:hover {  
+    background-color: linear-gradient(90deg, #920fd9, #033ff4);
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+}
